@@ -1,0 +1,150 @@
+.content h1{
+
+	text-align: center;
+	color: white;
+	font-size: 300px;
+	margin: 0;
+	padding-top: 0;
+
+}
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 50%;
+  margin-top: 0px;
+  margin-left: -145px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  }
+#te{
+text-align: center;
+	color: white;
+	font-size: 35px;
+	margin: 0;	
+	border: 10%;
+	padding-top: 30;
+}
+.main:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+
+body {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main::after {
+  content: '';
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 1000ms;
+}
+.showcase:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.showcase:hover .content {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.imagePreview {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+  background-color:#fff;
+    background-size: cover;
+  background-repeat:no-repeat;
+    display: inline-block;
+  box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
+}
+.btn-primary
+{
+  display:block;
+  border-radius:0px;
+  box-shadow:0px 4px 6px 2px rgba(0,0,0,0.2);
+  margin-top:-5px;
+}
+.imgUp
+{
+  margin-bottom:100px;
+  margin: 100px 100px 100px 100px;
+}
+.del
+{
+  position:absolute;
+  top:0px;
+  right:15px;
+  width:30px;
+  height:30px;
+  text-align:center;
+  line-height:30px;
+  background-color:white;/*rgba(255,255,255,0.6);*/
+  cursor:pointer;
+}
+.imgAdd
+{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color:#4bd7ef;
+  color:#fff;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
+  text-align:center;
+  line-height:30px;
+  margin-top:0px;
+  cursor:pointer;
+  font-size:15px;
+}
+.grid {
+  max-width: 1500px;
+  padding: 10.4rem 10.4rem 10.4rem 10.4rem;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.num3 {
+	padding: 10.4rem 10.4rem 10.4rem 30rem;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*.num2 {
+	padding: 10.4rem 10.4rem 10.4rem 10.4rem;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}*/
+.center{
+
+	margin: center;
+
+}
+.about{
+	padding: 10.4rem 10.4rem 10.4rem 10.4rem;
+	 color: black;
+	background-color: white;#f4f4f4f4;
+background-size: 500px;
+	text-align: center;
+	font-size: 20px;
+
+}
+.about p,h3{
+	font-size: 40px;
+	padding-bottom: 40;
+}
